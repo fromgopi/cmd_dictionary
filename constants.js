@@ -1,7 +1,8 @@
+require('dotenv').config();
 const appConstants = {
     api:{
-        url: 'https://fourtytwowords.herokuapp.com/',
-        key: ''
+        url: process.env.HOST_URL,
+        key: process.env.API_KEY
     }
 }
 
